@@ -28,8 +28,11 @@ python "Aula 1/Aula1.py"
 
 Case de uma empresa com mais de 800 mil clientes que precisa entender os principais motivos de cancelamento do serviço. O notebook trata a base de dados, analisa a taxa de cancelamento e cruza cada coluna com o cancelamento para identificar os fatores de maior impacto.
 
-- [aula2_codigo_final.ipynb](Aula%202/aula2_codigo_final.ipynb): notebook com o passo a passo da análise - importação e tratamento da base, análise da taxa de cancelamento, geração de gráficos por coluna e filtragem dos clientes segundo os fatores identificados.
+- [Aula2.ipynb](Aula%202/Aula2.ipynb): gabarito original passado pelo professor durante a aula (saídas/gráficos removidos para manter o arquivo leve - basta rodar as células novamente).
+- [aula2_codigo_final.ipynb](Aula%202/aula2_codigo_final.ipynb): versão reorganizada do mesmo código, com o passo a passo da análise - importação e tratamento da base, análise da taxa de cancelamento, geração de gráficos por coluna e filtragem dos clientes segundo os fatores identificados.
 - [cancelamentos.csv](Aula%202/cancelamentos.csv): base de dados de clientes (contrato, forma de pagamento, dias de atraso, ligações ao call center, cancelou ou não, entre outras colunas) usada na análise.
+
+> O `Aula2.ipynb` lê o arquivo como `cancelamentos_sample.csv` (nome usado originalmente pelo professor). Renomeie `cancelamentos.csv` ou ajuste essa linha antes de rodar esse notebook.
 
 ### Bibliotecas utilizadas
 
