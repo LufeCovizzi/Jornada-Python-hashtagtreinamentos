@@ -23,3 +23,22 @@ python "Aula 1/Aula1.py"
 ```
 
 > Antes de rodar, ajuste as coordenadas de clique e as credenciais de login no script conforme o seu ambiente.
+
+## Aula 2 - Analisando dados com Python (Python Insights)
+
+Case de uma empresa com mais de 800 mil clientes que precisa entender os principais motivos de cancelamento do serviço. O notebook trata a base de dados, analisa a taxa de cancelamento e cruza cada coluna com o cancelamento para identificar os fatores de maior impacto.
+
+- [aula2_codigo_final.ipynb](Aula%202/aula2_codigo_final.ipynb): notebook com o passo a passo da análise - importação e tratamento da base, análise da taxa de cancelamento, geração de gráficos por coluna e filtragem dos clientes segundo os fatores identificados.
+- [cancelamentos.csv](Aula%202/cancelamentos.csv): base de dados de clientes (contrato, forma de pagamento, dias de atraso, ligações ao call center, cancelou ou não, entre outras colunas) usada na análise.
+
+### Bibliotecas utilizadas
+
+- [`pandas`](https://pandas.pydata.org/): leitura e tratamento da base de dados (CSV).
+- [`plotly`](https://plotly.com/python/): geração dos gráficos de análise.
+
+### Como executar
+
+```bash
+pip install pandas plotly openpyxl nbformat ipykernel
+jupyter notebook "Aula 2/aula2_codigo_final.ipynb"
+```
